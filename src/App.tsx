@@ -12,7 +12,7 @@ import SignIn from './pages/SignIn.tsx'
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/kigumigroupdemo'>
         <div>
           <Navbar />
           <Routes>
