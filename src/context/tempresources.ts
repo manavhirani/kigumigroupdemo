@@ -16,6 +16,7 @@ const tempresources = {
       "Free Training": "Free Training",
       "Language": "Language",
       "L": "English",
+      "UC": "Under Construction...⚒️"
     },
   },
   zhhk: {
@@ -35,6 +36,7 @@ const tempresources = {
       "Free Training": "免费培训",
       "Language": "语言",
       "L": "中文（香港）",
+      "UC": "建设中...⚒️"
     },
   },
 }
