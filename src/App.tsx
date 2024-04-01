@@ -2,7 +2,7 @@
 // Author: Manav Hirani
 import './App.css'
 
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import Navbar from './components/Navbar.tsx'
 import Home from './pages/Home.tsx'
 import BrowseTrainings from './pages/BrowseTrainings.tsx'
@@ -12,7 +12,7 @@ import SignIn from './pages/SignIn.tsx'
 function App() {
   return (
     <>
-      <BrowserRouter basename='/kigumigroupdemo'>
+      <Router>
         <div>
           <Navbar />
           <Routes>
@@ -23,7 +23,7 @@ function App() {
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>
-      </BrowserRouter>
+      </Router>
     </>
   )
 }
