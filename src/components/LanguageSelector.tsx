@@ -31,8 +31,8 @@ const LanguageSelector = () => {
           </li>
         </ul>
       </div> */}
-      <button className="text-center rounded-lg hover:bg-green-100 focus:ring-4" onClick={() => changeLanguage("en")}>English</button>
-      <button className="text-center rounded-lg hover:bg-green-100 focus:ring-4" onClick={() => changeLanguage("zhhk")}>Chinese</button>
+      <button className="text-center rounded-lg hover:bg-green-100" onClick={() => changeLanguage("en")}>English</button>
+      <button className="text-center rounded-lg hover:bg-green-100" onClick={() => changeLanguage("zhhk")}>Chinese Hk</button>
     </div>
   );
 };
