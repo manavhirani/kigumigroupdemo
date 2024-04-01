@@ -29,7 +29,7 @@ export default function BrowseTrainings() {
         <div className="grid grid-cols-3 gap-10 place-items-center">
           {
             // Dummy data
-            Array(9).fill(0).map((_, i) => (
+            Array(12).fill(0).map((_, i) => (
               <div key={i} className="flex flex-col w-full overflow-hidden border-2 border-green-400 rounded-3xl">
                 <div className="w-full h-48 bg-gray-200 min-w-80">
                 </div>
