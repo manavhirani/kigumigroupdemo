@@ -7,7 +7,7 @@ export default function Navbar() {
   const { t } = useTranslation();
 
   return (
-    <nav className="flex w-full p-5 bg-gray-100">
+    <nav className="flex w-full h-32 p-5 overflow-visible bg-gray-100">
       <div className="min-w-48 max-w-min">
         <Link className="flex items-center justify-center h-full" to="/" >
           <img className="w-full" src={logo} alt="KigumiGroup"></img>

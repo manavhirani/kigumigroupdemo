@@ -14,8 +14,9 @@ const tempresources = {
       "Search": "Search",
       "Favorites": "Favorites",
       "Free Training": "Free Training",
+      "Language": "Language",
+      "L": "English",
     },
-    language: "English",
   },
   zhhk: {
     translation: {
@@ -32,8 +33,9 @@ const tempresources = {
       "Search": "搜索",
       "Favorites": "收藏夹",
       "Free Training": "免费培训",
+      "Language": "语言",
+      "L": "中文（香港）",
     },
-    language: "中文（香港）",
   },
 }
 
