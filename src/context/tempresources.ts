@@ -39,6 +39,26 @@ const tempresources = {
       "UC": "建设中...⚒️"
     },
   },
+  fr: {
+    translation: {
+      "Kigumi Group Trainings": "Formations de groupe Kigumi",
+      "Brief description about trainings": "Brève description des formations",
+      "Take Our Diagnostic Test": "Passez notre test de diagnostic",
+      "Browse our trainings": "Parcourez nos formations",
+      "Browse our trainings image": "Parcourez nos images de formations",
+      "Browse Trainings": "Parcourir les formations",
+      "About": "Sur",
+      "Sign In": "Se connecter",
+      "Try out a Free Training": "Essayez une formation gratuite",
+      "Filter": "Filtre",
+      "Search": "Chercher",
+      "Favorites": "Favoris",
+      "Free Training": "Formation gratuite",
+      "Language": "Langue",
+      "L": "Français",
+      "UC": "En construction...⚒️"
+    },
+  }
 }
 
 export default tempresources;

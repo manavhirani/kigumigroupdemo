@@ -27,8 +27,15 @@ const LanguageSelector = () => {
       </button>
       {isOpen && (
         <div className="absolute top-[calc(100%+8px)] flex flex-col w-full overflow-hidden bg-white border-2 border-green-400 rounded-3xl">
-          <button className="px-8 py-5 text-left border-b-2 hover:bg-green-200 border-inherit" onClick={() => changeLanguage("en")}>{i18n.t("L", { lng: "en" })}</button>
-          <button className="px-8 py-5 text-left hover:bg-green-200" onClick={() => changeLanguage("zhhk")}>{i18n.t("L", { lng: "zhhk" })}</button>
+          <button className="px-8 py-5 text-left border-b-2 hover:bg-green-200 border-inherit" onClick={() => changeLanguage("en")}>
+            {i18n.t("L", { lng: "en" })}
+          </button>
+          <button className="px-8 py-5 text-left border-b-2 hover:bg-green-200 border-inherit" onClick={() => changeLanguage("zhhk")}>{
+            i18n.t("L", { lng: "zhhk" })}
+          </button>
+          <button className="px-8 py-5 text-left hover:bg-green-200" onClick={() => changeLanguage("fr")}>{
+            i18n.t("L", { lng: "fr" })}
+          </button>
         </div>
       )}
     </div>
