@@ -13,7 +13,7 @@ export default function BrowseTrainings() {
         <p className="text-center">{t("Brief description about trainings")}</p>
       </div>
       <div className="flex flex-col gap-10 p-20">
-        <div className="flex flex-row gap-5">
+        <div className="hidden md:flex flex-row gap-5">
           <button className="flex flex-row items-center gap-2 p-4 bg-white border-2 border-green-400 rounded-full">
             <img className="w-4 h-4" src={FilterIcon} alt="FilterIcon" />
             <p className="text-center">{t("Filter")}</p>
@@ -26,11 +26,11 @@ export default function BrowseTrainings() {
             <p className="text-center">{t("Favorites")}</p>
           </button>
         </div>
-        <div className="grid grid-cols-3 gap-10 place-items-center">
+        <div className="grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 place-items-center">
           {
             // Dummy data
             Array(12).fill(0).map((_, i) => (
-              <div key={i} className="flex flex-col w-full overflow-hidden border-2 border-green-400 rounded-3xl">
+              <div key={i} className="flex flex-col overflow-hidden border-2 border-green-400 rounded-3xl w-96">
                 <div className="w-full h-48 bg-gray-200 min-w-80">
                 </div>
                 <div className="flex flex-row items-center justify-center gap-2 p-5 border-t-2 border-inherit">

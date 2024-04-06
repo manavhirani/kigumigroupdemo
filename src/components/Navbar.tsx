@@ -14,7 +14,7 @@ export default function Navbar() {
         </Link>
       </div>
       <span className="flex-grow"></span>
-      <div className="flex items-center justify-between gap-10">
+      <div className="hidden md:flex items-center justify-between gap-10">
         <Link id="trainings" to="/trainings" className="p-5 rounded-full hover:bg-green-200 active:bg-green-400">
           <p className="text-center">
             {t("Browse Trainings")}
